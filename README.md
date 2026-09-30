@@ -1,6 +1,6 @@
 **SOUNDSABER** 
 ==============
-is a spatial synthsizer with voice activation. It lives and evolves in 3D space. <br>
+is a spatial synthesizer with voice and motion activation. It lives and evolves in 3D space. <br>
 It is a pseudo-6DoF controller, powered by an Arduino Nano and a Python-based real-time audio synthesis.
 
 **⚠️ WORK IN PROGRESS ⚠️** - Optimizations are ongoing, check readme files
@@ -17,7 +17,7 @@ Based on 3 keywords:
 - "Darkness"   -- Turn OFF
 
 The top-level state machine handles the Arduino operations and is found in src.ino. <br>
-The state machine communicates with SaberGUI.py to turn sound on/off or switch synth type.
+This state machine communicates with SaberGUI.py to turn sound on/off or switch synth type.
 
 ---------------------------------------------------------------------------------------------
 
@@ -63,7 +63,7 @@ FX can be accessed through FX_engine.py
    - **Arduino_BMI270_BMM150** - IMU library (use Arduino_LSM9DS1 if you are using BLE 33 Sense rev1)
    - **ArduTFLite**            - Handles the TensorFlow Lite model for keyword inference
    - **Madgwick**              - Motion control makes use of Madgwick filter for IMUs
-   - **NanoBLEFlashPrefs**     -  Used to access flash memory during IMU calibration
+   - **NanoBLEFlashPrefs**     - Used to access flash memory during IMU calibration
 
 2. Install Python libraries that are required for GUI and audio engine:
 
