@@ -2,6 +2,7 @@ import numpy as np
 import sounddevice as sd
 import soundfile as sf
 from FX_engine import FXEngine
+import os
 
 
 class AudioEngine:
@@ -10,6 +11,7 @@ class AudioEngine:
     OUTPUT_GAIN = 0.5
     sample_path = os.path.join(os.path.dirname(__file__), "PythonScripts", "Saber_FrontEnd", "rhodes_Aminor.wav")
 
+    ROOT_FREQ = 55.0 # Hz
     # Bipolar allowed semitones centered around 0 (spanning -24 to +24 semitones)
     HARMONIC_MINOR_INTERVALS = [0, 2, 3, 5, 7, 8, 11]
     ALLOWED_SEMITONES = []
@@ -202,7 +204,7 @@ class AudioEngine:
             current_vibrato_depth = max_vibrato_depth * (t * t)
 
             # Base target frequency for the harmonic minor step
-            target_freq = 55.0 * (2.0 ** (quantized_semitones / 12.0))
+            target_freq = ROOT_FREQ * (2.0 ** (quantized_semitones / 12.0))
             self.current_freq += (target_freq - self.current_freq) * self.glide_factor
 
             # 7 Hz LFO generation across the block
