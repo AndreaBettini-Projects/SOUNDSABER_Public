@@ -3,6 +3,10 @@
 is a spatial synthesizer with voice and motion activation. It lives and evolves in 3D space. <br>
 It is a pseudo-6DoF controller, powered by an Arduino Nano and a Python-based real-time audio synthesis.
 
+LINK TO DEMO VIDEO:
+--------------------
+https://youtu.be/k_B68ljgFHI
+
 **⚠️ WORK IN PROGRESS ⚠️** - Optimizations are ongoing, check readme files
 
 -------------------------------------------------------------------------------------------
