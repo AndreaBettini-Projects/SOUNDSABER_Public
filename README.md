@@ -7,7 +7,8 @@ LINK TO DEMO VIDEO 🎥 :
 -----------------------
 https://youtu.be/k_B68ljgFHI
 
-**WORK IN PROGRESS** - Optimizations are ongoing, check readme files
+**WORK IN PROGRESS** - Optimizations are ongoing, check Issues in Project Section 
+https://github.com/users/AndreaBettini-Projects/projects/1
 
 -------------------------------------------------------------------------------------------
 
