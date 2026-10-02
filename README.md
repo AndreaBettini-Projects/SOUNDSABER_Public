@@ -3,15 +3,15 @@
 is a spatial synthesizer with voice and motion activation. It lives and evolves in 3D space. <br>
 It is a pseudo-6DoF controller, powered by an Arduino Nano and a Python-based real-time audio synthesis.
 
-LINK TO DEMO VIDEO:
---------------------
+LINK TO DEMO VIDEO 🎥 :
+-----------------------
 https://youtu.be/k_B68ljgFHI
 
-**⚠️ WORK IN PROGRESS ⚠️** - Optimizations are ongoing, check readme files
+**WORK IN PROGRESS** - Optimizations are ongoing, check readme files
 
 -------------------------------------------------------------------------------------------
 
-**👁️ OVERVIEW:**
+**OVERVIEW:**
 =================
 **VOICE ACTIVATION** 
 
@@ -39,15 +39,15 @@ Sound generation is done in audio_engine.py
 
 **3 LINEAR DETECTORS (FX Toggle):**
 
-- along X -- Distorsion (FX1)
-- along Y -- Reverb (FX2)
-- along Z -- Chorus (FX3)
+- along X -- FX1 (default: Distortion)
+- along Y -- FX2 (default: Reverb)
+- along Z -- FX3 (default: Chorus)
 
 FX can be accessed through FX_engine.py
 
 ---------------------------------------------------------------------------------------------
 
-🛠️ HARDWARE and SOFTWARE REQUIREMENTS
+**HARDWARE and SOFTWARE REQUIREMENTS**
 ======================================
 
 - Microcontroller: Arduino Nano 33 BLE Sense rev2 (ARM Cortex-M4) <br>
@@ -58,7 +58,7 @@ FX can be accessed through FX_engine.py
 
 --------------------------------------------------------------------------------------------
 
-**▶️ GETTING STARTED:**
+**GETTING STARTED:**
 ==========================
 
 
@@ -93,7 +93,7 @@ FX can be accessed through FX_engine.py
 ----------------------------
 
 
-**📁 REPOSITORY STRUCTURE**
+** REPOSITORY STRUCTURE**
 =============================
 
 <pre>
